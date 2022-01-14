@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="43.0" prefWidth="684.0" style="-fx-background-color: #9C9B96;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="booklibrary.Books">
+   <children>
+      <Label fx:id="id" alignment="CENTER" layoutX="629.0" layoutY="3.0" prefHeight="39.0" prefWidth="48.0" style="-fx-background-color: #D1CFC8; -fx-border-color: #9C9B96;" text="1" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+      <Label fx:id="name" alignment="CENTER" layoutX="456.0" layoutY="3.0" prefHeight="39.0" prefWidth="171.0" style="-fx-background-color: #D1CFC8; -fx-border-color: #9C9B96;" text="Big Java" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+      <Label fx:id="number" alignment="CENTER" layoutX="262.0" layoutY="3.0" prefHeight="39.0" prefWidth="65.0" style="-fx-background-color: #D1CFC8; -fx-border-color: #9C9B96;" text="5" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+      <Label fx:id="price" alignment="CENTER" layoutX="186.0" layoutY="3.0" prefHeight="39.0" prefWidth="72.0" style="-fx-background-color: #D1CFC8; -fx-border-color: #9C9B96;" text="50" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+      <Label fx:id="date" alignment="CENTER" layoutX="78.0" layoutY="3.0" prefHeight="39.0" prefWidth="104.0" style="-fx-background-color: #D1CFC8; -fx-border-color: #9C9B96;" text="15/4/2020" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+      <Label fx:id="author" alignment="CENTER" layoutX="329.0" layoutY="3.0" prefHeight="39.0" prefWidth="125.0" style="-fx-background-color: #D1CFC8; -fx-border-color: #9C9B96;" text="saleh" AnchorPane.bottomAnchor="2.0" AnchorPane.topAnchor="2.0" />
+      <Label fx:id="info" alignment="CENTER" layoutX="29.0" layoutY="12.0" prefHeight="19.0" prefWidth="48.0" text="تفاصيل">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Circle fx:id="buy" fill="DODGERBLUE" layoutX="18.0" layoutY="21.0" radius="12.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</AnchorPane>

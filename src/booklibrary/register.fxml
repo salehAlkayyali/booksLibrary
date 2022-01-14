@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="439.0" prefWidth="727.0" style="-fx-background-color: #cccccc;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="register.FXMLDocumentController">
+   <children>
+      <AnchorPane layoutX="14.0" layoutY="20.0" prefHeight="398.0" prefWidth="306.0" style="-fx-background-color: #A9A8A5; -fx-background-radius: 20px;">
+         <children>
+            <JFXTextField fx:id="userName" alignment="CENTER_RIGHT" focusColor="#101011" labelFloat="true" layoutX="14.0" layoutY="78.0" prefHeight="33.0" prefWidth="263.0" promptText="اسم المستخدم" style="-fx-background-color: #A9A8A5;" />
+            <JFXTextField fx:id="Email" alignment="CENTER_RIGHT" focusColor="#101011" labelFloat="true" layoutX="14.0" layoutY="134.0" prefHeight="33.0" prefWidth="263.0" promptText="البريد الإلكتروني" style="-fx-background-color: #A9A8A5;" />
+            <JFXTextField fx:id="phoneNumber" alignment="CENTER_RIGHT" focusColor="#101011" labelFloat="true" layoutX="14.0" layoutY="188.0" prefHeight="33.0" prefWidth="263.0" promptText="رقم الهاتف" style="-fx-background-color: #A9A8A5;" />
+            <JFXPasswordField fx:id="Password" alignment="CENTER_RIGHT" focusColor="#141414" labelFloat="true" layoutX="14.0" layoutY="242.0" prefHeight="33.0" prefWidth="263.0" promptText="كلمة المرور" style="-fx-background-color: #A9A8A5;" />
+            <JFXPasswordField fx:id="confirmPassword" alignment="CENTER_RIGHT" focusColor="#141414" labelFloat="true" layoutX="14.0" layoutY="298.0" prefHeight="33.0" prefWidth="263.0" promptText="تأكيد كلمة المرور" style="-fx-background-color: #A9A8A5;" />
+            <JFXButton fx:id="register" layoutX="33.0" layoutY="348.0" prefHeight="25.0" prefWidth="226.0" style="-fx-background-color: #595959; -fx-border-width: 2px; -fx-background-radius: 25px; -fx-border-radius: 25px;" text="تسجيل" textFill="#eee7e7">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <Label alignment="CENTER" layoutX="51.0" layoutY="22.0" prefHeight="35.0" prefWidth="187.0" style="-fx-background-color: #5D5454;" text="تسجيل حساب جديد" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="396.0" layoutY="37.0" prefHeight="360.0" prefWidth="306.0" style="-fx-background-color: #A9A8A5; -fx-background-radius: 20px;">
+         <children>
+            <JFXTextField fx:id="Email1" alignment="CENTER_RIGHT" focusColor="BLACK" labelFloat="true" layoutX="14.0" layoutY="95.0" prefHeight="33.0" prefWidth="263.0" promptText="البريد الإلكتروني" style="-fx-background-color: #A9A8A5;" />
+            <JFXPasswordField fx:id="Password1" alignment="CENTER_RIGHT" focusColor="BLACK" labelFloat="true" layoutX="14.0" layoutY="157.0" prefHeight="33.0" prefWidth="263.0" promptText="كلمة المرور" style="-fx-background-color: #A9A8A5;" />
+            <JFXButton fx:id="logIn" layoutX="33.0" layoutY="226.0" prefHeight="25.0" prefWidth="226.0" style="-fx-background-color: #595959; -fx-border-width: 2px; -fx-background-radius: 25px; -fx-border-radius: 25px;" text="تسجيل دخول" textFill="#eee7e7">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </JFXButton>
+            <Label alignment="CENTER" layoutX="51.0" layoutY="22.0" prefHeight="35.0" prefWidth="187.0" style="-fx-background-color: #5D5454;" text="تسجيل دخول" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Line endX="-100.0" endY="375.0" layoutX="457.0" layoutY="53.0" startX="-100.0" startY="-42.0" />
+   </children>
+</AnchorPane>
